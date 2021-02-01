@@ -423,7 +423,7 @@ class BaseCascadeForest(metaclass=ABCMeta):
             ``np.uint8``.
         y : :obj:`numpy.ndarray` of shape (n_samples,)
             The class labels of input samples.
-        sample_weight : :obj:array-like of shape (n_samples,), default=None
+        sample_weight : :obj:`numpy.ndarray` of shape (n_samples,), default=None
             Sample weights.
         """
         self._check_input(X, y)
